@@ -1,6 +1,6 @@
 Hi Developers 👋
 
-[![Linkedin Badge](https://www.linkedin.com/in/koyel-sudani-074260231/)
+[![Linkedin Badge]([https://www.linkedin.com/in/koyel-sudani-074260231/)](https://www.linkedin.com/in/koyel-sudani-074260231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrMtnEFesR1K%2FC49sdTFdgA%3D%3D)
  
 I'm Koyel sudani,
 Full Stack developer.
