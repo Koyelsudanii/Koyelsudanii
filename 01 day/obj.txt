@@ -1,0 +1,16 @@
+OBJECTS
+    these are collection of key valye pairs
+eg
+let obj={
+    name:"guvi",
+    age:
+}
+json=js object notation
+
+let jsonobj={
+    "name":"guvi",
+    :age":10
+}
+
+server needs data in json form itself
+server understands string language so json string

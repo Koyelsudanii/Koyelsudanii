@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Exclusive Deals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center Title */
+.deals-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.deals-section h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.highlight {
+    color: orange;
+}
+
+.deals-section p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Deals Container */
+.deals-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Deal Box */
+.deal-box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    overflow: hidden;
+    max-width: 250px;
+}
+
+.deal-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Deal Info */
+.deal-info {
+    padding: 15px;
+}
+
+.place-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place-name h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.rating {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff9800;
+}
+
+/* Country Name */
+.deal-info p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Pricing */
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px
+}
+</style>
+<body>
+    /*THIRD PAGE*/
+    <!-- Title Section -->
+    <section class="deals-section">
+        <h2>Exclusive <span class="highlight">Deals & Discounts</span></h2>
+        <p>Find the best travel destinations at unbeatable prices.</p>
+    </section>
+
+    <!-- Deals Box Section -->
+    <section class="deals-container">
+        <div class="deal-box">
+            <img src="https://images.pexels.com/photos/3290070/pexels-photo-3290070.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Madrid">
+            <div class="deal-info">
+                <div class="place-name">
+                    <h3>Madrid</h3>
+                    <span class="rating">⭐ 4.8</span>
+                </div>
+                <p><i class="fa-solid fa-location-pin"></i>Spain</p>
+                <div class="price">
+                    <span class="old-price">$950</span>
+                    <span class="new-price">$850</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="deal-box">
+            <img src="https://images.pexels.com/photos/981682/pexels-photo-981682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Firenze">
+            <div class="deal-info">
+                <div class="place-name">
+                    <h3>firenze</h3>
+                    <span class="rating">⭐ 4.5</span>
+                </div>
+                <p><i class="fa-solid fa-location-pin"></i>Italy</p>
+                <div class="price">
+                    <span class="old-price">$850</span>
+                    <span class="new-price">$750</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="deal-box">
+            <img src="https://images.pexels.com/photos/1530259/pexels-photo-1530259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Paris">
+            <div class="deal-info">
+                <div class="place-name">
+                    <h3>Paris</h3>
+                    <span class="rating">⭐ 4.4</span>
+                </div>
+                <p><i class="fa-solid fa-location-pin"></i>France</p>
+                <div class="price">
+                    <span class="old-price">$700</span>
+                    <span class="new-price">$500</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="deal-box">
+            <img src="https://images.pexels.com/photos/77171/pexels-photo-77171.jpeg?auto=compress&cs=tinysrgb&w=400" alt="London">
+            <div class="deal-info">
+                <div class="place-name">
+                    <h3>New London</h3>
+                    <span class="rating">⭐ 4.8</span>
+                </div>
+                <p><i class="fa-solid fa-location-pin"></i>UK</p>
+                <div class="price">
+                    <span class="old-price">$850</span>
+                    <span class="new-price">$850</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

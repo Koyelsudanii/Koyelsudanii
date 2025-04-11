@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-
+    <title>Document</title>
+</head>
+<body>
+<h4>table tag</h4>
+    <table border="1" cellspacing="0" cellpadding="0">
+    
+        <thead>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1<td>
+                <td>abc</td>
+                <td>def</td>
+                <td>abc@gmail.com</td>
+                <td>6353637</td>
+            </tr>
+            <tr>
+                <td>2<td>
+                <td>arc</td>
+                <td>dwf</td>
+                <td>ytr@gmail.com</td>
+                <td>6353637</td>
+            </tr>
+            <tr>
+                <td>3<td>
+                <td>hsg</td>
+                <td>sjaj</td>
+                <td>sss@gmail.com</td>
+                <td>6353637</td>
+            </tr>
+        </body>
+    </table>
+</body>
+</html>

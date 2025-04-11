@@ -1,0 +1,96 @@
+Declaration of the variables
+>var  >> was declared in JS
+was declared later
+>let
+>const 
+
+VAR 
+var a=100       //Declaration
+var a=100;
+undefined
+console.log(a)
+100
+//updation of 'a' and when printed a is updated
+a=500
+500
+a
+500
+console.log(a)
+500
+
+LET 
+let b=100
+undefined
+b
+100
+b=300
+300
+
+// IT IS SINGLE LINE COMMENT'  CTRL+/(SHORTCUT KEY)
+/* IT IS 
+MULTIPLE LINE COMMENT
+*/
+// in var redeclaration can be done
+// in let redeclaration cannot be done
+
+CONST KEYWORD
+//no change in the value that means constant 
+const c=80
+console.log(c)
+80
+undefined
+c=20
+VM514:1 Uncaught TypeError: Assignment to constant variable.
+ 
+so once const value is given it cannot be declared again
+//* HOW TO RUN A CODE AND CYHANGING THE FOLDER NAME AND ADDING THE FILENAME AFTER WRITING CD PRESS TAB
+//* WRITE NODE AND WRITE FILENAME AND PRESS TAB FOR FULLPATH THEN THE CODE IS RUNNED
+PS C:\Users\hp\OneDrive\Desktop\guvi> cd '.\01 day\'
+PS C:\Users\hp\OneDrive\Desktop\guvi\01 day> node .\day1.js
+300
+
+//GLOBAL VARIABKLES ARE var,let,const
+
+CONSOLE.log(Y)
+var y=90
+undefined
+//HOISTING- cannot print before initiliasation>> VAR KEYWORD
+//global variable is when defined in the Top 
+it can be var,const and let 
+//let & const are scope variable
+//var can be functional scope 
+
+
+IF ELSE STATEMENT-CONDITIONAL STATEMENTS
+if(condition){
+
+}
+give example good morning and more based on time
+
+
+//LOOPS
+never endingcycle which keeps on repeating
+loop is going to run until condition becomes true
+
+FOR LOOP 
+syntax
+for(var i=start;condition(stop);increment/decrement)
+{
+    //block of code
+}
+eg is printing 5the number from 1 to 5 usoing for loop
+    print the table of 2
+    also print table as 2 2 4, 2 3 6, 2 4 8
+    also print table as 2*2=4, 2*3=6, 2 4 8
+
+
+//arrays in loops> imp
+var arr=[12,34,56,75]
+console.log(arr)
+console.log(arr[3])
+
+for (let i=0;i<arr.length;i++){
+    console.log(i,arr[i])
+}
+this gives the element and their index number
+

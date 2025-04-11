@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Testimonials</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .testimonial-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .left-content {
+            max-width: 40%;
+        }
+
+        .left-content h2 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .highlight {
+            color: orange;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .arrow-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .arrow {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: lightgrey;
+            cursor: pointer;
+        }
+
+        .right-arrow {
+            background: orange;
+            color: white;
+        }
+
+        .testimonial-container {
+            position: relative;
+            max-width: 50%;
+        }
+
+        .testimonial-box {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-box img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: absolute;
+            top: -25px;
+            left: 15px;
+            border: 3px solid white;
+        }
+
+        .review-text {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .reviewer {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .location {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .overlapping-box {
+            border-bottom: 2px solid #ccc;
+            border-right: 2px solid #ccc;
+            padding: 20px;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section class="testimonial-section">
+        <div class="left-content">
+            <h2>What People Say <span class="highlight">About Us</span></h2>
+            <p class="tagline">Hear from our satisfied customers!</p>
+            <div class="arrow-container">
+                <div class="arrow left-arrow"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="arrow right-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
+        
+        <div class="testimonial-container">
+            <div class="testimonial-box">
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Reviewer">
+                <p class="review-text">"This service was amazing! Highly recommend it to anyone looking for quality and reliability."</p>
+                <p class="reviewer">John Doe</p>
+                <p class="location">New York, USA</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+

@@ -1,0 +1,133 @@
+git init<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Latest Blog Updates</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .blog-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .blog-section h2 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .highlight {
+            color: orange;
+        }
+
+        .blog-tagline {
+            font-size: 18px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .blog-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .blog-box {
+            width: 250px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            overflow: hidden;
+            padding: 15px;
+        }
+
+        .blog-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .blog-title {
+            font-size: 18px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .blog-date {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .dots {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 5px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: lightgray;
+        }
+
+        .dot.active {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    /*5th page*/
+    <section class="blog-section">
+        <h2>Get Update with <span class="highlight">Latest Blog</span></h2>
+        <p class="blog-tagline">Stay informed with the most recent travel stories, tips, and guides.</p>
+        
+        <div class="blog-container">
+            <div class="blog-box">
+                <img src="https://images.pexels.com/photos/13235189/pexels-photo-13235189.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog 1">
+                <p class="blog-title">The amazing Difference a year of Travelling.</p>
+                <p class="blog-date">January 27, 2021</p>
+            </div>
+            <div class="blog-box">
+                <img src="https://images.pexels.com/photos/27664338/pexels-photo-27664338/free-photo-of-a-row-of-colorful-buildings-with-green-plants-on-the-roof.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog 2">
+                <p class="blog-title">Travel for enough, you meet yourself.</p>
+                <p class="blog-date">july 27,2021</p>
+            </div>
+            <div class="blog-box">
+                <img src="https://images.pexels.com/photos/29049/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400" alt="Blog 3">
+                <p class="blog-title">How to save Money while visiting Africa</p>
+                <p class="blog-date">July 27,2021</p>
+            </div>
+            <div class="blog-box">
+                <img src="https://images.pexels.com/photos/2417264/pexels-photo-2417264.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Blog 4">
+                <p class="blog-title">Reflections on 5 months of Travel:Time to Hang</p>
+                <p class="blog-date">April 20, 2025</p>
+            </div>
+        </div>
+        
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot active"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+</body>
+</html>
+

@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DROPDOWN</title>
+</head>
+<style>
+    .dropdown{
+        padding:8px;
+        /* border:1px solid black; */
+        background-color: navy;
+        color: white;
+        position: relative;
+        width:105px;
+        text-align: center;
+    }
+    .dropdownList{
+        position: absolute;
+        top:30px;
+        left:30px;
+        background-color: black;
+        display: none;
+    }
+    .name{
+        border:1px solid black;
+        padding: 5px;
+        width:80px;
+        border-bottom: 1px solid grey;
+        text-align: start;
+    }
+    /* Hover ???? */
+    .dropdown:hover .dropdownList{
+        display: block;
+    }
+    .styleIcon{
+        margin-right: 10px;
+    }
+    .styleCourses{
+        margin-left: 10px;
+    }
+    .dropdown:hover{
+        background-color:rgb(69, 69, 234);
+    }
+    .name:hover{
+        background-color: rgb(184, 153, 153);
+        color:black
+    }
+    .container{
+        display: flex;
+    }
+    .navitem{
+        display: flex;
+    }
+</style>
+<body>   
+    <div class="container"> 
+        <div>FSDB20</div>
+            <div class="navitem">
+                <div class="dropdown"><i class="fa-solid fa-book styleIcon"></i>Courses1<i class="fa-solid fa-caret-down styleCourses"></i>
+                    <div class="dropdownList">
+                    <div class="name"><i class="fa-brands fa-html5 styleIcon"></i>HTML</div>
+                    <div class="name"><i class="fa-brands fa-css3-alt styleIcon"></i>CSS</div>
+                    <div class="name"><i class="fa-brands fa-square-js styleIcon"></i>JS</div>
+                </div>
+                <div class="dropdown"><i class="fa-solid fa-book styleIcon"></i>Courses2<i class="fa-solid fa-caret-down styleCourses"></i>
+                    <div class="dropdownList">
+                    <div class="name"><i class="fa-brands fa-html5 styleIcon"></i>HTML</div>
+                    <div class="name"><i class="fa-brands fa-css3-alt styleIcon"></i>CSS</div>
+                    <div class="name"><i class="fa-brands fa-square-js styleIcon"></i>JS</div>
+                </div>
+                <div class="dropdown"><i class="fa-solid fa-book styleIcon"></i>Courses3<i class="fa-solid fa-caret-down styleCourses"></i>
+                    <div class="dropdownList">
+                    <div class="name"><i class="fa-brands fa-html5 styleIcon"></i>HTML</div>
+                    <div class="name"><i class="fa-brands fa-css3-alt styleIcon"></i>CSS</div>
+                    <div class="name"><i class="fa-brands fa-square-js styleIcon"></i>JS</div>
+                </div>
+                <div class="dropdown"><i class="fa-solid fa-book styleIcon"></i>Courses4<i class="fa-solid fa-caret-down styleCourses"></i>
+                    <div class="dropdownList">
+                    <div class="name"><i class="fa-brands fa-html5 styleIcon"></i>HTML</div>
+                    <div class="name"><i class="fa-brands fa-css3-alt styleIcon"></i>CSS</div>
+                    <div class="name"><i class="fa-brands fa-square-js styleIcon"></i>JS</div>
+                </div>
+            </div>
+            
+    </div>
+</body>
+</html>

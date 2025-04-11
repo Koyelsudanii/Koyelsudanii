@@ -1,0 +1,15 @@
+let arr=[12,23,45,32]
+function addition(arr){
+    console.log(arr)
+    //perform addition
+    console.log(arr[0]+arr[1]+arr[2]+arr[3])
+    // loop>>12.....32
+    let sum=0    // we are storing the sum in this thats why its 0
+    for(let i=0;i<arr.length;i++){
+        console.log(i,arr[i])
+        //this prints the index and the sum
+        sum=sum+arr][i]
+        console.log("sum:",sum)
+    }
+    console.log("sum:",sum)
+}
