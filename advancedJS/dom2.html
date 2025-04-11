@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="items" class="child childitems">
+        </div>
+    </div>
+    <script>
+        let div1=document.createElement('div')
+        div1.setAttribute("class","container")
+        div1.innerHTML=`
+        <div id=
+        "items" class="child childitems">
+            <div>hi</div>
+            <h6>Hello</h6>
+        </div>
+        `
+        div.style.backgroundColor="red"
+        div.style.fontSize="20px"
+        div.style.color="white"
+        document.body.append(div1)
+
+        let div2=document.createElement('div')
+        div2.setAttribute('class','container')
+        console.log(div2)
+
+        let div3=document.createElement('div')
+        div3.setAttribute('id','items')
+        div3.classList.add('child','child childitems')
+        console.log(div3)
+
+        div4=document.createElement('div')
+        div4.innerText="hi"
+        console.log(div4)
+
+        heading1=document.createElement('h6')
+        heading1.innerText="Hello"
+        console.log(heading1)
+
+        // append() >> n no of child items
+        // appendChild() >> only 1 child item
+        // append() >> can take string as well as node
+        // appendChild() >> can take only node
+        // div3.appendChild(div4) >> only 1 child item
+        // div3.appendChild(heading1) >> only 1 child item
+        // div3.append(div4,heading1) >> n no of child items
+        // div3.appendChild(div4)
+        div3.append(div4,heading1)
+        div2.append(div3)
+        document.body.append(div2)
+    </script>
+</body>
+</html>

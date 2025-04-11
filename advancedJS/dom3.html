@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading1">hello world</h1>
+    <div class="container">
+        <div class="navitems">home</div>
+        <div class="navitems">about</div>
+        <div class="navitems">contact</div>
+    <script>
+        let heading1=document.getElementById('heading1')
+        console.log(heading1)
+        heading1.style.color="red"
+        heading1.style.backgroundColor="black"
+        heading1.style.fontSize="30px"
+
+        let wrapper=document.getElementsByClassName('container')    
+        console.log(wrapper)
+
+        let navbaritems=document.getElementsByClassName('navitems')
+        console.log(navbaritems)
+
+        for(let i=0;i<navbaritems.length;i++){
+            console.log("statement:",i+1,navbaritems[i])
+            navbaritems[i].innerHTML="this is navbar items"
+            navbaritems[i].style.color="white"
+            navbaritems[i].style.backgroundColor="blue"
+            navbaritems[i].style.fontSize="20px"
+            navbaritems[i].style.padding="10px"
+            navbaritems[i].style.margin="10px"
+            navbaritems[i].style.border="2px solid black"
+            navbaritems[i].style.width="250px"
+
+            let button=document.createElement('button')
+            button.innerText="click"
+            button.style.backgroundColor="green"
+            button.style.color="white"
+            button.style.fontSize="20px"
+            button.style.padding="10px"
+            button.style.margin="10px"
+            button.style.border="2px solid black"
+
+            navbaritems[i].append(button)
+        }
+
+        let divallitems=document.getElementsByTagName('div')
+        console.log(divallitems)
+
+
+    </script>
+</body>
+</html>
