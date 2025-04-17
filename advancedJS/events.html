@@ -6,6 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>EVENTS</h1>
+    <button onclick="greet()">click me</button>
+    <script>
+        function greet() {
+            console.log("hi there");  //this will print hi there in the console.
+            alert("hi there");  //this will show a pop up with hi there message.
+        }
+
+        function clickme(){
+            console.log("button is pressed")
+            console.log(2+2)
+            console.log(event)
+        }
+
+        let btnclick=document.getElementById('btn')
+        console.log(btnclick)
+
+        btnclick.addEventListener('click',function(){
+            console.log(event)
+        })
+
+        let btnnew=document.createElement('button')
+        btnnew.innerHTML="pure js click"
+        document.body.append(btnnew)
+
+        btnnew.addEventListener('click',()=>{
+            console.log("pure js click")
+            console.log(2+2)
+        })
+    </script>
 </body>
 </html>

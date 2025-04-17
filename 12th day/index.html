@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>quiz app</title>
+</head>
+<body>
+    <div class="quizcontainer" id="quiz">
+        <!--question-->
+        <div class="quizheader">
+            <h2 id="quizheading">QuestionText</h2>
+            <!-- options -->
+             <!-- radio >> only 1 || any 1 group them -->
+            <ul>
+                <li>
+                    <input type="radio" name="optionlist" id="a" class="optionlist">
+                    <label for="a" id="aoption">Option1</label>
+                </li>
+                <li>
+                    <input type="radio" name="optionlist" id="b" class="optionlist">
+                    <label for="b" id="boption">Option2</label>
+                </li>
+                <li>
+                    <input type="radio" name="optionlist" id="c" class="optionlist">
+                    <label for="c" id="coption">Option3</label>
+                </li>
+                <li>
+                    <input type="radio" name="optionlist" id="d" class="optionlist">
+                    <label for="d" id="doption">Option4</label>
+                </li>
+            </ul>
+        </div>
+        <!-- buttons -->
+         <button id="submitbtn" class="submitbtn">Submit</button>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
