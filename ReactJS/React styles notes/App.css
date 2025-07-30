@@ -1,0 +1,17 @@
+/*this is external style using id */
+#buttonstyle1{
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonstyle3{
+    background-color: rgb(8, 52, 66);
+    color: rgb(179, 25, 25);
+    padding: 15px 32px;
+    text-align: center;
+    margin: 10px;
+}
